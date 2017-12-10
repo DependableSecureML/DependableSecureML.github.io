@@ -14,7 +14,7 @@ A:hover {   color: red }
 body {
    font-family: 'Open Sans',tahoma,helvetica;
    font-size: 13pt;
-   width: 720px;
+   width: 90%;
    margin: 0 auto;
    margin-top: 10px;
    text-align: center
@@ -22,7 +22,7 @@ body {
 
 #container {
    background: #FFFFFF;
-   width: 720px;
+   width: 80%;
    margin: 0 auto;
    padding: 24;
    text-align: left
