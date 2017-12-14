@@ -1,5 +1,5 @@
 h1 { font-family: 'Merriweather', calibri,tahoma, helvetica, sans-serif;
-color: rgb(25,25,112); text-align: center }
+color: rgb(25,25,112); }
 h2 { font-family: 'Merriweather', sans-serif; color: rgb(25,25,112) }
 h3 { font-family: 'Open Sans',tahoma, helvetica, sans-serif; color: rgb(25,25,112); background: #DDEEF0 }
 h4 { font-family: 'Open Sans',tahoma, helvetica, sans-serif; color: rgb(25,25,112); background: #DDEEF0 }
@@ -35,7 +35,7 @@ h1 { margin-left: 0%; margin-right: 0% }
 
 p.narrow {
   margin-left: 10%;
-  margin-right: 40%;
+  margin-right: 20%;
 }
 
 p.text {
