@@ -19,8 +19,8 @@ padding-bottom: 0px;
 
 body {
    font-family: 'Open Sans',tahoma,helvetica;
-   font-size: 15pt;
-   width: 95%;
+   font-size: 14pt;
+   width: 92%;
    margin: 0;
    margin-top: 10px;
    text-align: center
@@ -28,7 +28,7 @@ body {
 
 #container {
    background: #FFFFFF;
-   width: 95%;
+   width: 92%;
    margin: 0 auto;
    padding: 24;
    text-align: center
@@ -52,6 +52,7 @@ color: black;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
+font-size: 14pt;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: orange;}
