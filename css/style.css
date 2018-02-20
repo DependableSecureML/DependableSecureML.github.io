@@ -52,7 +52,7 @@ color: black;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
-font-size: 14pt;
+font-size: 12pt;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: orange;}
@@ -68,8 +68,8 @@ ul.topnav li {float: none;}
 
 h4 { margin-left: 0%; margin-right: 0% }
 h3 { margin-left: 0%; margin-right: 0% }
-h2 { margin-left: 0%; margin-right: 0% }
-h1 { margin-left: 0%; margin-right: 0%; font-size:220%;}
+h2 { margin-left: 0%; margin-right: 0%; font-size:15pt;}
+h1 { margin-left: 0%; margin-right: 0%; font-size:200%;}
 
 p.narrow {
   margin-left: 10%;
