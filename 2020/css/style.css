@@ -1,0 +1,330 @@
+h1 { font-family: 'Merriweather', calibri,tahoma, helvetica, sans-serif; color: rgb(25,25,112); }
+h2 { font-family: 'Merriweather', sans-serif; color: rgb(25,25,112) }
+h3 { font-family: 'Open Sans',tahoma, helvetica, sans-serif; color: rgb(25,25,112); background: #DDEEF0 }
+h4 { font-family: 'Open Sans',tahoma, helvetica, sans-serif; color: rgb(25,25,112); background: #DDEEF0 }
+h5 { font-family: 'Open Sans', helvetica, sans-serif; color: rgb(25,25,112) }
+
+title { font-family: 'Open Sans',tahoma, helvetica, sans-serif; color: rgb(25,25,112) }
+A:link {    color: blue }
+A:visited { color: rgb(25,25,112) }
+A:active {  color: green }
+A:hover {   color: red }
+
+#myCell {
+padding-left:0px;
+padding-right: 30px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+body {
+   font-family: 'Open Sans',tahoma,helvetica;
+   font-size: 14pt;
+   width: 92%;
+   margin: 0;
+   margin-top: 10px;
+   text-align: center
+}
+
+#container {
+   background: #FFFFFF;
+   width: 92%;
+   margin: 0 auto;
+   padding: 24;
+   text-align: center
+}
+
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border: 1px solid #e7e7e7;
+background-color: #f3f3f3;
+font-size: 100%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 12pt;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: orange;}
+
+ul.topnav li a.active {background-color: orange;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+ul.topnav li.right,
+ul.topnav li {float: none;}
+}
+
+h4 { margin-left: 0%; margin-right: 0% }
+h3 { margin-left: 0%; margin-right: 0% }
+h2 { margin-left: 0%; margin-right: 0%; font-size:15pt;}
+h1 { margin-left: 0%; margin-right: 0%; font-size:200%;}
+
+p.narrow {
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+p.text {
+}
+
+p.text1 {
+   font-family: 'Open Sans',tahoma;
+   font-size: 9pt;
+}
+
+table.texttable {
+   font-size: 100%;
+}
+
+table.sidemap th, table.sidemap td {
+   font-size: 75%;
+}
+
+table.footer th, table.footer td {
+  font-family: 'Open Sans', tahoma;
+  font-size: 9pt;
+}
+
+div.footer {
+  font-family: 'Open Sans', tahoma;
+  font-size: 9pt;
+}
+
+hr.bottomrule {
+  width: 620px ;
+  color: rgb(50,50,112);
+  height: 1px;
+  padding-bottom: 1px;
+}
+
+hr.bottomrule2 {
+  width: 700px ;
+  color: rgb(80,80,112);
+  height: 2px;
+  padding-bottom: 1px;
+  padding-top: 0px;
+}
+
+div#narrow {
+  width: 560px;
+  margin: 0 auto;
+}
+
+div#wide {
+  width: 850px;
+  margin: 0 auto;
+}
+
+div.quote {
+   text-align: right;
+   font-size: 80%;
+   margin-left: 150px;   
+   padding-bottom: 10px;
+}
+
+
+div.indented {
+     padding-left: 50px;
+}
+
+div.hanging {
+     padding-left: 25px;
+     text-indent: -25px;
+}
+
+div.hangingmore {
+     padding-left: 40px;
+     text-indent: -40px;
+    }
+
+div.offset {
+     padding-left: 25px;
+}
+
+div.border {
+      font-size: 75%;
+      padding: 4px;
+      background: #ffffaa;
+}
+
+div.highlight {
+      font-size: 85%;
+      padding: 4px;
+      background: #ffffbe;
+}
+
+div.greenhighlight {
+      font-size: 85%;
+      padding: 4px;
+      background: #beffbe;
+}
+
+div.wideborder {
+      font-size: 80%;
+      padding-left: 50px;
+      text-align: right;
+}
+
+div.greenborder {
+      font-size: 80%;
+      border: 2px solid;
+      padding: 8px;
+      background: #aaffaa;
+      float: right;
+      width: 55%;
+    }
+
+    div.answer {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+
+    div.source {
+      text-align: right;
+      padding-right: 3px;
+      padding-top: 3px;
+      padding-bottom: 0px;
+    }
+
+
+
+    div.buttonbar {
+      text-align: center;
+      font-size: 11pt;
+      border: 2px solid;
+      background: #DDEEF0;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+
+
+/* http://stopdesign.com/eg/buttons/3.0/code.html */
+   /* Start custom button CSS here
+    ---------------------------------------- */
+    .btn {
+      display:inline-block;
+      background:none;
+      margin:0;
+      padding:3px 0;
+      border-width:0;
+      overflow:visible;
+      font:100%/1.2 'Open Sans', "Trebuchet MS",Sans-serif;
+      text-decoration:none;
+      color:#333;
+      }
+    * html button.btn {
+      padding-bottom:1px;
+      }
+    /* Immediately below is a temporary hack to serve the 
+       following margin values only to Gecko browsers
+       Gecko browsers add an extra 3px of left/right 
+       padding to button elements which can't be overriden.
+       Thus, we use -3px of left/right margin to overcome this. */
+    html:not([lang*=""]) button.btn {
+      margin:0 -3px;
+      }
+    .btn span {
+      background:#ddd url(bg-button.gif) repeat-x 0 0;
+      margin:0;
+      padding:3px 0;
+      border-left:1px solid #bbb;
+      border-right:1px solid #aaa;
+      }
+    * html .btn span {
+      padding-top:0;
+      }
+    .btn span span {
+      position:relative;
+      padding:3px .4em;
+      border-width:0;
+      border-top:1px solid #bbb;
+      border-bottom:1px solid #aaa;
+      }
+    
+    /* pill classes only needed if using pill style buttons ( LEFT |
+    CENTER | RIGHT ) */
+    button.pill-l span {
+      border-right-width:0;
+      }
+    button.pill-l span span {
+      border-right:1px solid #bbb;
+      }
+    button.pill-c span {
+      border-right-style:none;
+      border-left-color:#fff;
+      }
+    button.pill-c span span {
+      border-right:1px solid #bbb;
+      }
+    button.pill-r span {
+      border-left-color:#fff;
+      }
+    
+    /* only needed if implementing separate hover/focus/active state for
+    buttons */
+    .btn:hover span, .btn:hover span span, .btn:focus span, .btn:focus
+    span span {
+      cursor:pointer; /* important for any clickable/pressable element
+    */
+      border-color:#9cf !important;
+      color:#000;
+      }
+    .btn:active span {
+      background-position:0 -400px;
+      outline:none;
+      }
+    .btn:focus, .btn:active {
+      outline:none; /* doesn't seem to be respected for <button>, only
+    <a> */
+      }
+ 
+    /* use if one button should be the 'primary' button */
+    .primary {
+      font-weight:bold;
+      color:#000;
+      }
+
+
+.rightnote
+{
+   position:absolute;
+   float:right;
+   left:1250px;
+   width:250px;
+   padding: 10px;
+   margin-top:-70px;
+   text-align:left;
+   font-weight:200;
+   font-size: 11px;
+   line-height: 16px;
+   background-color: #DDEEF0;
+}
+
+
+.c7{text-align:center;vertical-align:top;width:55pt;border-style:solid;background-color:#efefef;border-color:#000000;border-width:0.5pt;padding:3.1pt 3.1pt 3.1pt 3.1pt}
+.c9{vertical-align:top;width:474pt;border-style:solid;border-color:#000000;border-width:0.5pt;padding:3.1pt 7pt 3.1pt 7pt}
+.c10{text-align:center;vertical-align:top;border-style:solid;width:55pt;border-color:#000000;border-width:0.5pt;padding:3.1pt 3.1pt 3.1pt 3.1pt}
+.c8{font-weight:bold}
+.c12{border-collapse:collapse}
+.c11{background-color:#efefef}
+.c13{background-color:#DDEEF0}
+.c3{font-style:italic}
+.d2{font-size:12pt}
+.c1{direction:ltr}
+.c6{height:0pt}
