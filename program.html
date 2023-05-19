@@ -185,18 +185,19 @@ Q&A
 <table border="0" cellpadding="0" cellspacing="0">
 <tbody font-weight: bold;>
 <tr>
-<img src="images/paolo.jpg" width="15%"><br>
+<img src="https://www.inf.ufrgs.br/~prech/Paolo_Rech/home_files/shapeimage_3.png" width="15%"><br>
 <b>Understanding and improving the reliability of Machine Learning accelerators: from GPUs to TPUs and FPGAs</b><br>
 <a href="https://www.inf.ufrgs.br/~prech/Paolo_Rech/home.html"> Paolo Rech</a>, University of Trento/UFRGS
 <br>
 <br>
-<b>Abstract:</b>
+<b>Abstract:</b>  Machine Learning (ML) is ubiquitous and its potential is attractive in many applications, from driverless cars to robotics, medicine, and even deep space exploration. For instance, NASA and ESA are willing to add self-driving capabilities to their rovers and to improve the features of satellites, such as image processing, debrits detention, cloud screening, and even pose estimation during docking. Several low-cost and low-power accelerators for ML execution have recently been introduced on the market. This is the case of embedded Graphics Processing Units (GPUs), Tensor Processing Units (TPUs) and System-on-Chips with an FPGA fabric. By optimizing the data transfer and relying on dedicated functional units design, ML accelerators efficiency outperforms traditional computing devices. The power efficiency and flexibility of ML accelerators can potentially further extend the use of ML even in power-constraint projects. Clearly before integrating a ML accelerator in the project it is fundamental to estimate its reliability and to understand how a hardware fault can propagate and modify the neural network output. Since each accelerator has a specific architecture, the manifestation of the hardware fault in software is likely to be device-dependent and needs to be evaluated.
 
-
+In the talk, after a brief description of radiation effects at physical level, we will experimentally investigate the reliability of ML accelerators,  show if and why a neutron-induced corruption can modify the autonomous vehicles behaviors, and discuss the implications of these corruptions for the adoption in mission-critical applications.
+The presented evaluation, to be accurate and realistic, is based on the combination of accelerated beam experiments and, when available, fault injection. This combination allows us to have a realistic evaluation of the error rate, distinguish between tolerable errors and critical errors, and to design efficient and effective hardening solutions. By hardening only critical error sources, by modifying some of the key layers in a neural network, by taking advantage of novel architectural solutions, or by applying algorithm protection, we are able to significantly increase the reliability of the application (up to 85% error detection) without unnecessary overhead (overhead as low as 0.1%).
 
 <br>
 <br>
-<b>Speaker Bio:</b> 
+<b>Speaker Bio:</b> Paolo Rech received his master and Ph.D. degrees from Padova University, Padova, Italy, in 2006 and 2009, respectively. He was then a Post Doc at LIRMM in Montpellier, France. Since 2022 Paolo is an associate professor at Università di Trento, in Italy and since 2012 he is an associate professor at UFRGS in Brazil. He is the 2019 Rosen Scholar Fellow at the Los Alamos National Laboratory, he received the 2020 impact in society award from the Rutherford Appleton Laboratory, UK. In 2020 Paolo was awarded the Marie Curie Fellowship at Politecnico di Torino, in Italy. His main research interests include the evaluation and mitigation of radiation-induced effects in autonomous vehicles for automotive applications and space exploration, in large-scale HPC centers, and quantum computers.
 
 <br>
 <br>
@@ -207,10 +208,11 @@ Q&A
 <a href="https://ajpaverd.org">Andrew Paverd</a>, Microsoft Security Response Center
 <br>
 <br>
-<b>Abstract:</b> 
+<b>Abstract:</b> The use of domain-specific private data can add significant value to ML models, but also requires us to ensure that this data is adequately protected, even from users of the model. Privacy-preserving machine learning has been the focus of a significant body of research, with several tools and techniques now available. However, in real-world deployments, various practical questions may still arise: What specific threats are we mitigating? What level of privacy is sufficient? How do we know we have achieved the desired privacy level? In this talk, I will discuss recent work on the theme of evaluating privacy in ML, ranging from the use of "Privacy Games" to formalize and reason about specific risks, through to techniques for empirically estimating the level of privacy achieved.
+
 <br>
 <br>
-<b>Speaker Bio:</b>
+<b>Speaker Bio:</b> Andrew Paverd (<a href="https://ajpaverd.org/">https://ajpaverd.org/</a>) is a Principal Research Manager in the Microsoft Security Response Center (MSRC), where he leads the strategic research initiative on AI Security & Privacy. In collaboration with researchers from across Microsoft, he has been working on tools and techniques to measure and mitigate privacy risks in machine learning. His research interests also include web and systems security. Prior to joining Microsoft, he was a Fulbright Cyber Security Scholar at the University of California, Irvine, and a Research Fellow in the Secure Systems Group at Aalto University. He received his DPhil from the University of Oxford in 2016.
 
 
 <br>
